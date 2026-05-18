@@ -7,6 +7,7 @@ int main()
 
 	if((n>>i)&1==1)
 		printf("The ith bit %d is 1\n", i);
+		printf("Success\n");
 	else
 		printf("The ith bit %d is 0\n", i);
 
